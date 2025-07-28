@@ -61,7 +61,25 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))'
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-accent': 'var(--gradient-accent)'
+			},
+			backgroundColor: {
+				'glass': 'var(--glass-bg)'
+			},
+			borderColor: {
+				'glass': 'var(--glass-border)'
+			},
+			boxShadow: {
+				'ai-glow': '0 0 20px var(--ai-glow)',
+				'glass': '0 8px 32px rgba(0, 0, 0, 0.1)',
+				'card-hover': '0 10px 40px rgba(0, 0, 0, 0.15)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
