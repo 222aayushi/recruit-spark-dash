@@ -2,6 +2,7 @@ import { MetricCard } from "@/components/MetricCard";
 import { AIInsightsPanel } from "@/components/AIInsightsPanel";
 import { PerformanceChart } from "@/components/PerformanceChart";
 import { UsageChart } from "@/components/UsageChart";
+import { DataManager } from "@/components/DataManager";
 import { Button } from "@/components/ui/button";
 import { 
   Brain, 
@@ -74,6 +75,13 @@ const Index = () => {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Data Management */}
+      <section className="py-12">
+        <div className="container mx-auto px-6">
+          <DataManager />
         </div>
       </section>
 
